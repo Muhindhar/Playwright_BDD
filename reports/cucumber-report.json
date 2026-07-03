@@ -1,0 +1,249 @@
+[
+  {
+    "description": "              Description: logging to the site",
+    "elements": [
+      {
+        "description": "",
+        "id": "logging-in-to-the-site;valid-login",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "valid login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 127294200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user is on the url",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2279749699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "user clicks on the myacc link",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 140749799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "user clicks on the loginlink",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 217625900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "user enters the valid email as \"muhindhar271@gmail.com\"",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36888999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "user enters password as \"12345678\"",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16120899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "user clicks on the login button",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1057848399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "user should be loggedin successfully",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 66939199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 64641700
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "logging-in-to-the-site;invalid-login",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Invalid login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 182360999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user is on the url",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2170933000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "user clicks on the myacc link",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 89600400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "user clicks on the loginlink",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 239033799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "user enters the valid email as \"muhindhar271@gmail.com\"",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46997199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "user enters password as \"1234567\"",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10110199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "user clicks on the login button",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 877088400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "user should not be loggedin successfully",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 52911500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 34247000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "logging-in-to-the-site",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "logging in to the site",
+    "tags": [],
+    "uri": "src\\test\\features\\login.feature"
+  }
+]
