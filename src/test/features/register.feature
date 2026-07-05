@@ -20,4 +20,4 @@ Feature Description:As a new user i want to register to the site and go to home 
 
         Examples:
                   | firstname | lastname | email                        | phone      | password    | confirmpassword |
-                  | bdd       | pt       | bddplaywrightdemo4@gmail.com | 9098767876 | 12345678900 | 12345678900     |
+                  | bdd       | pt       | bddplaywrightdemo5@gmail.com | 9098767876 | 12345678900 | 12345678900     |

@@ -1,6 +1,6 @@
-import { FILE } from "node:dns";
 import { logger } from "../utils/logger";
 import { Basepage } from "./basepage";
+ 
 
 export class RegisterPage extends Basepage{
     private myacc = this.page.locator("//span[normalize-space()='My Account']");

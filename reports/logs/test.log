@@ -392,3 +392,24 @@
 [2026-07-05T07:18:26.104Z]INFO-click the login button link
 [2026-07-05T07:18:30.894Z]INFO-Clicking my acc link
 [2026-07-05T07:18:31.024Z]INFO-Clickinig register
+[2026-07-05T10:26:03.436Z]INFO-Clicking the my account
+[2026-07-05T10:26:03.577Z]INFO-click the login button link
+[2026-07-05T10:26:03.912Z]INFO-Entering email
+[2026-07-05T10:26:03.972Z]INFO-enters the password
+[2026-07-05T10:26:04.000Z]INFO-click the login button 
+[2026-07-05T10:26:06.163Z]INFO-logged in successfully
+[2026-07-05T10:26:08.332Z]INFO-Clicking the my account
+[2026-07-05T10:26:08.409Z]INFO-click the login button link
+[2026-07-05T10:26:08.637Z]INFO-Entering email
+[2026-07-05T10:26:08.688Z]INFO-enters the password
+[2026-07-05T10:26:08.724Z]INFO-click the login button 
+[2026-07-05T10:26:10.130Z]INFO-Didn't loggedin
+[2026-07-05T10:26:11.246Z]INFO-Clicking the my account
+[2026-07-05T10:26:11.342Z]INFO-click the login button link
+[2026-07-05T10:26:15.546Z]INFO-Clicking the my account
+[2026-07-05T10:26:15.650Z]INFO-click the login button link
+[2026-07-05T10:26:19.622Z]INFO-Clicking the my account
+[2026-07-05T10:26:19.718Z]INFO-click the login button link
+[2026-07-05T10:26:21.003Z]INFO-Searching Product : MacBook Air
+[2026-07-05T10:26:23.317Z]INFO-Clicking my acc link
+[2026-07-05T10:26:23.412Z]INFO-Clickinig register
