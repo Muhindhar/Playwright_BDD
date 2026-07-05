@@ -9,6 +9,8 @@ export class Basepage {
         await this.page.goto(EnvReader.getBaseUrl())
     }
 
+
+
     async Click(locator:Locator){
         await locator.click();
     }
@@ -17,6 +19,7 @@ export class Basepage {
     async Fill(locator:Locator,value:string){
         await (locator).fill(value);
     }
+
     
 
     async gettext(locator:Locator){

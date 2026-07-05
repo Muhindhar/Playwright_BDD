@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 127294200
+              "duration": 243841500
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2279749699
+              "duration": 1121795500
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 140749799
+              "duration": 339265600
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 217625900
+              "duration": 327412499
             }
           },
           {
@@ -66,7 +66,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 36888999
+              "duration": 48969900
             }
           },
           {
@@ -79,7 +79,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 16120899
+              "duration": 19825799
             }
           },
           {
@@ -92,7 +92,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1057848399
+              "duration": 1546850899
             }
           },
           {
@@ -105,7 +105,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 66939199
+              "duration": 60890900
             }
           },
           {
@@ -113,7 +113,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 64641700
+              "duration": 66035499
             }
           }
         ],
@@ -132,7 +132,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 182360999
+              "duration": 195364300
             }
           },
           {
@@ -145,7 +145,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2170933000
+              "duration": 1474676700
             }
           },
           {
@@ -158,7 +158,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 89600400
+              "duration": 130036299
             }
           },
           {
@@ -171,7 +171,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 239033799
+              "duration": 215431399
             }
           },
           {
@@ -184,7 +184,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 46997199
+              "duration": 43366099
             }
           },
           {
@@ -197,7 +197,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 10110199
+              "duration": 23239999
             }
           },
           {
@@ -210,7 +210,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 877088400
+              "duration": 780003800
             }
           },
           {
@@ -223,7 +223,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 52911500
+              "duration": 43047300
             }
           },
           {
@@ -231,7 +231,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 34247000
+              "duration": 47087300
             }
           }
         ],
@@ -245,5 +245,536 @@
     "name": "logging in to the site",
     "tags": [],
     "uri": "src\\test\\features\\login.feature"
+  },
+  {
+    "description": "Feature Description: As a registered user i want to Unsubscribe and Subscribe the newsletter in\nthe website",
+    "elements": [
+      {
+        "description": "",
+        "id": "subscribing-and-unsubscribing-the-newsletter;subscribe-to-the-newsletter",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Subscribe to the newsletter",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 166789800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the user is on the home page of the tutorials ninja site",
+            "match": {
+              "location": "src\\test\\steps\\newsletterstep.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2680642799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "user clicks on the newsletter link the homepage",
+            "match": {
+              "location": "src\\test\\steps\\newsletterstep.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 321272600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "user clicks on the yes radiobutton in the site",
+            "match": {
+              "location": "src\\test\\steps\\newsletterstep.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 68042499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "user clicks on the continue button",
+            "match": {
+              "location": "src\\test\\steps\\newsletterstep.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 430666800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "user should be able to subscribe successfully",
+            "match": {
+              "location": "src\\test\\steps\\newsletterstep.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 39272399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 47452099
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "subscribing-and-unsubscribing-the-newsletter;unsubscribe-to-the-newsletter",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Unsubscribe to the newsletter",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 173663200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the user is on the home page of the tutorials ninja site",
+            "match": {
+              "location": "src\\test\\steps\\newsletterstep.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2508809900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "user clicks on the newsletter link the homepage",
+            "match": {
+              "location": "src\\test\\steps\\newsletterstep.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 289872400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "user clicks on the no radiobutton in the site",
+            "match": {
+              "location": "src\\test\\steps\\newsletterstep.ts:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 79601100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "user clicks on the continue button",
+            "match": {
+              "location": "src\\test\\steps\\newsletterstep.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 415594300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "user should be able to Unsubscribe successfully",
+            "match": {
+              "location": "src\\test\\steps\\newsletterstep.ts:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 43450000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 54178299
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "subscribing-and-unsubscribing-the-newsletter",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Subscribing and Unsubscribing the newsletter",
+    "tags": [],
+    "uri": "src\\test\\features\\newsletter.feature"
+  },
+  {
+    "description": "Feature Description:As a logged in user i want to order the product",
+    "elements": [
+      {
+        "description": "",
+        "id": "order-product-from-the-website;order-product",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Order product",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 172805700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user is launched on the tutorialsninja website",
+            "match": {
+              "location": "src\\test\\steps\\orderstep.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1441160700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "user is loggedin and launched to the homepage",
+            "match": {
+              "location": "src\\test\\steps\\orderstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1387920200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "user enters the product name as \"MacBook Air\"",
+            "match": {
+              "location": "src\\test\\steps\\orderstep.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28744699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "clicks on the search button",
+            "match": {
+              "location": "src\\test\\steps\\orderstep.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 272895599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "user enters the Macbook product",
+            "match": {
+              "location": "src\\test\\steps\\orderstep.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 612279999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "user clicks on the add to cart button",
+            "match": {
+              "location": "src\\test\\steps\\orderstep.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 417170699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "clicks on the shoppingcart link",
+            "match": {
+              "location": "src\\test\\steps\\orderstep.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 393234399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "user should be able to see the selected product in the cart",
+            "match": {
+              "location": "src\\test\\steps\\orderstep.ts:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1604500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 96846900
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "order-product-from-the-website",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Order product from the website",
+    "tags": [],
+    "uri": "src\\test\\features\\order.feature"
+  },
+  {
+    "description": "Feature Description:As a new user i want to register to the site and go to home page",
+    "elements": [
+      {
+        "description": "",
+        "id": "regisering-to-the-tutorials-ninja-site;registering-to-thewebsite-with-valid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 23,
+        "name": "Registering to thewebsite with valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 179524999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user is on the home page of the website",
+            "match": {
+              "location": "src\\test\\steps\\registerstep.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1510130799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "user clicks on the myaccount link",
+            "match": {
+              "location": "src\\test\\steps\\registerstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 129490799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "user click on the register button",
+            "match": {
+              "location": "src\\test\\steps\\registerstep.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 627956000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "user enters the valid fname \"bdd\"",
+            "match": {
+              "location": "src\\test\\steps\\registerstep.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 243077199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "user enters the valid lname \"pt\"",
+            "match": {
+              "location": "src\\test\\steps\\registerstep.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23159700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "user enters the valid email \"bddplaywrightdemo2@gmail.com\"",
+            "match": {
+              "location": "src\\test\\steps\\registerstep.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29856200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "user enters the valid telephone \"9098767876\"",
+            "match": {
+              "location": "src\\test\\steps\\registerstep.ts:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19290800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "person enters the password \"12345678900\"",
+            "match": {
+              "location": "src\\test\\steps\\registerstep.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21691500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "user enters the confirm password \"12345678900\"",
+            "match": {
+              "location": "src\\test\\steps\\registerstep.ts:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16764900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "clicks the privasypolicy checkbox",
+            "match": {
+              "location": "src\\test\\steps\\registerstep.ts:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 68133099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "clicks on the continue button in the site",
+            "match": {
+              "location": "src\\test\\steps\\registerstep.ts:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1902720900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "user should be able to see the successfully register",
+            "match": {
+              "location": "src\\test\\steps\\registerstep.ts:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 70090500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 48375299
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "regisering-to-the-tutorials-ninja-site",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Regisering to the tutorials ninja site",
+    "tags": [],
+    "uri": "src\\test\\features\\register.feature"
   }
 ]

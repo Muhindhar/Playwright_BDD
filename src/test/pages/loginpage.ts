@@ -1,5 +1,6 @@
 import { logger } from "../utils/logger";
 import { Basepage } from "./basepage";
+import logindata from "../data_files/logindata.json";
 
 let log = logger
 export class Loginpage extends Basepage{
@@ -14,6 +15,7 @@ export class Loginpage extends Basepage{
     // private myacc = "//span[normalize-space()='My Account']";
     // private loginlink = "//ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Login']";
     // private email = "//input[@id='input-email']";
+    
     async myaccclick(){
         log.info("Clicking the my account")
         await this.Click(this.myacc)
@@ -47,6 +49,12 @@ export class Loginpage extends Basepage{
         return await this.gettext(this.wrongpass);
     }
 
+
+    async directlogin(){
+        await this.Fill(this.email,logindata.logincred.email);
+        await this.Fill(this.password,logindata.logincred.password);
+        await this.Click(this.loginbtn);
+    }
 
     
 }
